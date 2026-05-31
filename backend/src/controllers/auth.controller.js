@@ -1,4 +1,4 @@
-import { generateTokenAndSetCookie } from "../../../../Auth-System/backend/utils/generateTokenAndSetCookie.js";
+import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie.js"
 import UserModel from "../models/user.model.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
