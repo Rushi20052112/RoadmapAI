@@ -9,7 +9,7 @@ export const initPassport = () => {
             {
                 clientID: process.env.GOOGLE_CLIENT_ID,
                 clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-                callbackURL: 'http://roadmapai-ebw2.onrender.com/api/auth/google/callback',
+                callbackURL: 'https://roadmapai-ebw2.onrender.com/api/auth/google/callback',
             },
             async (accessToken, refreshToken, profile, done) => {
                 try {
