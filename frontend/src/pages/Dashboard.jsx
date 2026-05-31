@@ -3,7 +3,7 @@ import Sidebar from "../components/Dashboard/Sidebar";
 import DashboardHeader from "../components/Dashboard/DashboardHeader";
 import StatCard from "../components/Dashboard/StatCard";
 import RoadmapWeekCard from "../components/Dashboard/RoadmapWeekCard";
-import AIChatCard from "../components/Dashboard/AIChatCard";
+// import AIChatCard from "../components/Dashboard/AIChatCard";
 import { getUserRoadmaps, markWeekCompletedAPI } from "../services/api.js";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -185,7 +185,7 @@ export default function Dashboard() {
                             </div>
                         </section>
 
-                        <AIChatCard />
+                        
                     </div>
                 </div>
             </main>

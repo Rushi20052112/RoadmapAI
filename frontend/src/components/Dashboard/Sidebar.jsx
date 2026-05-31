@@ -5,7 +5,6 @@ import { getUserData, getUserRoadmaps, logout } from "../../services/api";
 const navItems = [
   { label: "Dashboard", path: "/dashboard" },
   { label: "My Roadmaps", path: "/roadmaps" },
-  { label: "AI Mentor", path: "/ai-mentor" },
 ];
 
 const accountItems = [
@@ -13,8 +12,6 @@ const accountItems = [
   { label: "Credits & Plans", path: "/credits" },
   { label: "Settings", path: "/settings" },
 ];
-
-
 
 export default function Sidebar({ isOpen, onClose }) {
   const { pathname } = useLocation();
